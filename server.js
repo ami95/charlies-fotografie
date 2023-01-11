@@ -10,7 +10,7 @@ app.use(express.static(__dirname + '/public'));
 
 app.get('/', (req, res) => {
   res.render('index', {
-    title: "Charlie's Fotografie Wien",
+    title: "Meine ur-leiwande Lebenslauf-Webseite",
     people: people.profiles
   })
 })
